@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Calendar</title>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <!-- LINK GOOGLE FONT -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <p class="current-date"></p>
+        <div class="icons">
+          <span id="prev" class="material-symbols-outlined">
+            chevron_left
+          </span>
+          <span id="next" class="material-symbols-outlined">
+            chevron_right
+          </span>
+        </div>
+      </header>
+      <div class="calendar">
+        <ul class="weeks">
+          <li>Dom</li>
+          <li>Lun</li>
+          <li>Mar</li>
+          <li>Mer</li>
+          <li>Gio</li>
+          <li>Ven</li>
+          <li>Sab</li>
+        </ul>
+        <ul class="days"></ul>
+      </div>
+    </div>
+    <script src="/scripts/script.js" defer></script>
+  </body>
+</html>
